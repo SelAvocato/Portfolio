@@ -1,0 +1,107 @@
+main {
+    padding: 10rem;
+    min-height: 100vh;
+    background-color: hsla(239, 94%, 88%, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+    .left-side h1 {
+        font-size: 3rem;
+    }
+
+    .left-side h3 {
+        margin: 20px 0px;
+    }
+
+.qcu {
+    text-decoration: none;
+}
+    .qcu:hover {
+        text-shadow: 1px 1px 1px rgba(18, 223, 35, 0.863);
+    }
+
+.socials {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+    .socials img {
+        max-width: 30px;
+    }
+    .socials a {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 1rem;
+        max-width: 2.7rem;
+        max-height: 2.5rem;
+        border-radius: 100%;
+        margin-bottom: 2rem;
+    }
+    .email {
+        background-color: rgb(38, 0, 255);
+    }
+
+    .github {
+        background-color: black;
+    }
+
+    .facebook {
+        background-color: rgb(105, 114, 247);
+    }
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+    .buttons button {
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        color: white;
+    }
+
+.view-my-work {
+    background-color: rgb(86, 86, 240);
+    transition: 0.25s ease;
+}
+    .view-my-work:hover {
+        background-color: rgb(59, 59, 252);
+        transform: scale(1.05);
+    }
+
+.get-in-touch {
+    background-color: rgba(233, 63, 63, 0.753);
+    transition: 0.2s ease;
+}
+    .get-in-touch:hover {
+        background-color: rgb(221, 72, 72);
+        transform: scale(1.05);
+    }
+
+    .right-side img {
+        width: 270px;
+        height: 100%;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219), -5px -5px 5px rgb(255, 255, 255);
+    }
+
+@media screen and (max-width: 980px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 3rem;
+    }
+    
+    .left-side{
+        text-align: center;
+        flex-direction: column;
+        place-items: center;
+    }
+}
