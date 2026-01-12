@@ -1,0 +1,63 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.about-me{
+    font-size: 2rem;
+}
+
+.get-to-know{
+    margin-top: 1rem;
+    text-align: center;
+    max-width: 33rem;
+}
+
+.about-left-side{
+    flex: 1;
+}
+
+.about-right-side{
+    flex: 1;
+}
+.left-and-right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 10rem;
+    gap: 2rem;
+    max-width: 90rem;
+    margin-top: 3rem;
+}
+
+.right-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+    .right-grid div{
+        padding: 0.8rem 1.5rem;
+        border-radius: 10px;
+        background-color: hsla(0, 0%, 71%, 0.253);
+    }
+        .right-grid div:hover{
+            background-color: hsla(0, 0%, 71%, 0.445);
+        }
+    .right-grid img{
+        width: 25px;
+    }
+    .right-grid h5{
+        margin: 0.6rem 0rem;
+    }
+    .right-grid p{
+        font-size: 0.8rem;
+    }
+    
+    .team-player:hover img{
+        width: 25px;
+        filter: invert(15%) sepia(98%) saturate(6000%) hue-rotate(355deg) brightness(95%) contrast(105%);
+    }
