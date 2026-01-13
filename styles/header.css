@@ -2,6 +2,10 @@
     --p-color: hsl(0, 2%, 31%);
 }
 
+h2{
+    font-size: 1.95rem;
+}
+
 p{
     color: var(--p-color);
 }

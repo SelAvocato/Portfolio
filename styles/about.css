@@ -7,23 +7,12 @@
     min-height: 100vh;
 }
 
-.about-me{
-    font-size: 2rem;
-}
-
 .get-to-know{
     margin-top: 1rem;
     text-align: center;
     max-width: 33rem;
 }
 
-.about-left-side{
-    flex: 1;
-}
-
-.about-right-side{
-    flex: 1;
-}
 .left-and-right-container{
     display: flex;
     justify-content: center;
@@ -32,6 +21,22 @@
     gap: 2rem;
     max-width: 90rem;
     margin-top: 3rem;
+}
+
+.about-left-side{
+    flex: 1;
+}
+    .about-left-side h4{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .about-left-side p{
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+.about-right-side{
+    flex: 1;
 }
 
 .right-grid{
@@ -54,7 +59,7 @@
         margin: 0.6rem 0rem;
     }
     .right-grid p{
-        font-size: 0.8rem;
+        font-size: 0.78rem;
     }
     
     .team-player:hover img{
