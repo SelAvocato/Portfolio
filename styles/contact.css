@@ -1,0 +1,38 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: hsla(239, 94%, 88%, 0.534);
+}
+    .contact-container > p{
+        margin-bottom: 5rem;
+    }
+
+.contact-information{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+
+.information-card{
+    border-radius: 12px;
+    background-color: white;
+    padding: 2rem 2rem;
+    width: 20rem;
+}
+    .information-card h5{
+        margin: 10px 0px;
+    }
+    .information-card p {
+        font-size: 0.9rem;
+    }
+    .information-card img{
+        background-color: hsla(239, 93%, 88%, 0.247);
+        filter: invert(6%) sepia(80%) saturate(6000%) hue-rotate(240deg) brightness(50%) contrast(100%);
+        padding: 1rem;
+        border-radius: 2rem;
+    }
