@@ -22,11 +22,9 @@ main {
         color: var(--p-color);
     }
 
-.qcu {
-    text-decoration: none;
-}
     .qcu:hover {
-        text-shadow: 1px 1px 1px rgba(18, 223, 35, 0.863);
+        scale: 1.1;
+        display: inline-block;
     }
 
 .socials {
@@ -62,14 +60,17 @@ main {
 .buttons {
     display: flex;
     justify-content: flex-start;
-    gap: 1.5rem;
+    gap: 1rem;
 }
-    .buttons button {
-        padding: 1rem 2rem;
+    .buttons a {
+        padding: 0.9rem 1.2rem;
         border-radius: 5px;
         cursor: pointer;
         border: none;
         color: white;
+        font-size: 0.9rem;
+        width: 9rem;
+        text-align: center;
     }
 
 .view-my-work {

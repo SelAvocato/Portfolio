@@ -20,20 +20,20 @@
 <body>
     <header class="header">
         <p class="name">Braylle Soberano</p>
-        <div class="links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </div>
+        <nav class="links">
+            <a href="#main">Home</a>
+            <a href="#about">About</a>
+            <a href="#technologies">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact</a>
+        </nav>
     </header>
 
-    <main>
+    <main id="main">
         <div class="left-side">
             <h1>Hi, I'm <span class="span-name">Braylle Soberano</span></h1>
             <h3>Software Developer</h3>
-                <p>I'm currently a 3rd year BSIT student of <span><a class="qcu"
+                <p>I'm currently a 3rd year BSIT student of <span class="qcu-span"><a class="qcu"
                             href="https://quezoncity.gov.ph/departments/quezon-city-university/"
                             target="_blank" rel="noopener">QCU</a></span>. I'm still in my learning phase.</p>
                 <div class="socials">
@@ -43,8 +43,8 @@
                     <a href="#" class="facebook"><img src="./images/facebook.svg" alt="facebook icon"></a>
                 </div>
                 <div class="buttons">
-                    <button class="view-my-work">View My Work</button>
-                    <button class="get-in-touch">Get In Touch</button>
+                    <a class="view-my-work" href="https://github.com/SelAvocato">View My Works</a>
+                    <a class="get-in-touch" href="#contacts">Get In Touch</a>
                 </div>
         </div>
         <div class="right-side">
@@ -52,7 +52,7 @@
         </div>
     </main>
 
-    <section class="about-container">
+    <section class="about-container" id="about">
         <h2 class="about-me">About Me</h2>
         <p class="get-to-know">Get to know more about myself, my enjoyment of software development, and how I got here
         </p>
@@ -99,7 +99,7 @@
         </div>
     </section>
 
-    <section class="skills-technologies-container">
+    <section class="skills-technologies-container" id="technologies">
         <h2>Skills & Technologies</h2>
         <p class="here-are-the-technologies">Here are the technologies and skills I've learned and worked with while creating projects</p>
         <div class="skills-technologies-grid">
@@ -147,7 +147,7 @@
         </div>
     </section>
 
-    <section class="featured-container">
+    <section class="featured-container" id="projects">
         <h2>Featured Projects</h2>
         <p>Here are some of the projects I've made.</p>
         <div class="projects-wrapper">
@@ -216,7 +216,7 @@
         </div>
     </section>
 
-    <section class="contact-container">
+    <section class="contact-container" id="contacts">
         <h2>Get In Touch</h2>
         <p>Here are my contact informations. Contact me.</p>
         <div class="contact-information">
