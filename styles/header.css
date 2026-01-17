@@ -31,11 +31,11 @@ body{
 
 header{
     display: flex;
+    width: 100vw;
     justify-content: center;
     align-items: center;
+    padding: 15px 10px;
     gap: 20rem;
-    padding: 15px 20px;
-    width: 100%;
     position: fixed;
     border-bottom: 1px solid rgba(116, 117, 117, 0.24);
     background-color: rgb(253, 245, 245);
@@ -60,3 +60,18 @@ header{
             scale: 1.05;
             color: blue;
         }
+
+@media screen and (max-width: 850px) {
+
+    header{
+        gap: 1rem;
+    }
+
+    .links a{
+        margin-left: auto;
+    }
+
+    .name{
+    margin-right: auto;
+    }
+}

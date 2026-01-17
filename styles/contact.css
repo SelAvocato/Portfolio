@@ -15,7 +15,6 @@
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    
 }
 
 .information-card{
@@ -36,3 +35,9 @@
         padding: 1rem;
         border-radius: 2rem;
     }
+
+@media screen and (max-width: 980px) {
+    .contact-information{
+        flex-direction: column;
+    }
+}

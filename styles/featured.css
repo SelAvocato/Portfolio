@@ -84,3 +84,10 @@
     border-radius: 8px;
     border: 1px solid gray;
 }
+
+@media screen and (max-width:980px) {
+    .projects-wrapper{
+        grid-template-columns: 1fr;
+        width: 350px;
+    }
+}
