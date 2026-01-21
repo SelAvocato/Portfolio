@@ -22,7 +22,13 @@
     background-color: white;
     padding: 2rem 2rem;
     width: 20rem;
+    color: black;
+    transition: transform 0.25s ease;
 }
+    .information-card:hover{
+        transform: translateY(-0.8rem) scale(1.05);
+        box-shadow: 3px 5px 10px hsla(0, 0%, 0%, 0.13);
+    }
     .information-card h5{
         margin: 10px 0px;
     }

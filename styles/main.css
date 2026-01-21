@@ -21,11 +21,14 @@ main {
         font-size: 22px;
         color: var(--p-color);
     }
-
-    .qcu:hover {
-        scale: 1.1;
-        display: inline-block;
+    .qcu{
+        transition: scale 0.25s ease;
     }
+        .qcu:hover {
+            scale: 1.1;
+            display: inline-block;
+            text-decoration: underline;
+        }
 
 .socials {
     margin-top: 2rem;
@@ -44,7 +47,12 @@ main {
         max-height: 2.5rem;
         border-radius: 100%;
         margin-bottom: 2rem;
+        transition: scale 0.25s ease;
     }
+        .socials a:hover{
+            scale: 1.1;
+        }
+
     .email {
         background-color: rgb(38, 0, 255);
     }

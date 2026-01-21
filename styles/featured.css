@@ -22,15 +22,18 @@
     flex-direction: column;
     min-width: 27rem;
     max-width: 27rem;
-    min-height: 28rem;
+    height: 28rem;
     border-radius: 15px;
     box-shadow: 0px 5px 10px hsla(0, 0%, 0%, 0.2);
 }
     .project-card > img{
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        max-height: 200px;
     }
     .project-card > div{
+        display: grid;
+        grid-template-rows: 30px 80px 60px 30px;
         padding: 1.5rem;
     }
 
@@ -67,7 +70,13 @@
     .project-buttons img{
         width: 20px;;
     }
-
+    .project-buttons a{
+        transition: transform 0.25s ease;
+    }
+        .project-buttons a:hover{
+            transform: translateY(-0.3rem) scale(1.05);
+            box-shadow: 3px 5px 5px hsla(0, 0%, 0%, 0.223);
+        }
 .btn-code{
     display: flex;
     align-items: center;
@@ -79,6 +88,10 @@
 }
 
 .btn-demo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
     padding: 7px 10px;
     background-color: rgb(81, 81, 201);
     border-radius: 8px;
