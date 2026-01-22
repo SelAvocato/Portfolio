@@ -61,6 +61,23 @@ header{
             color: blue;
         }
 
+
+.ham-menu{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+    .ham-menu span{
+        width: 25px;
+        height: 3px;
+        background: black;
+        transition: 0.25s;
+    }
+
+
 @media screen and (max-width: 850px) {
 
     header{
@@ -73,5 +90,26 @@ header{
 
     .name{
     margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .ham-menu{
+        display: flex;
+    }
+
+    .links{
+        position: absolute;
+        top: 50px;
+        right: 0;
+        flex-direction: column;
+        width: 100px;
+        padding: 1rem;
+        background-color: white;
+        display: none;
+    }
+
+    .links.active{
+        display: flex;
     }
 }

@@ -20,13 +20,19 @@
 <body>
     <header class="header">
         <p class="name">Braylle Soberano</p>
-        <nav class="links">
+        <nav class="links" id="links">
             <a href="#main">Home</a>
             <a href="#about">About</a>
             <a href="#technologies">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contacts">Contact</a>
         </nav>
+
+        <button class="ham-menu" id="hamMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </header>
 
     <main id="main">
@@ -45,7 +51,7 @@
                         src="./images/facebook.svg" alt="facebook icon"></a>
             </div>
             <div class="buttons">
-                <a class="view-my-work" href="https://github.com/SelAvocato">View My Works</a>
+                <a class="view-my-work" href="#projects">View My Works</a>
                 <a class="get-in-touch" href="#contacts">Get In Touch</a>
             </div>
         </div>
@@ -273,6 +279,8 @@
 
         </div>
     </section>
+
+    <script src="./scripts/header.js"></script>
 </body>
 
 </html>

@@ -5,6 +5,7 @@
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    padding: 5rem 0rem;
 }
 
 .projects-wrapper{
@@ -20,7 +21,6 @@
 .project-card{
     display: flex;
     flex-direction: column;
-    min-width: 27rem;
     max-width: 27rem;
     height: 28rem;
     border-radius: 15px;
@@ -102,6 +102,12 @@
 @media screen and (max-width:980px) {
     .projects-wrapper{
         grid-template-columns: 1fr;
-        width: 350px;
+        max-width: 350px;
+        gap: 4rem;
     }
+
+    .project-card{
+        max-width: 350px;
+    }
+
 }
